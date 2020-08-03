@@ -1,6 +1,7 @@
 def oxford_comma(array)
+  counter = 0
   array.each do |elem|
-    if array.length
+    if counter == (array.length-1)
   end
 end
 
