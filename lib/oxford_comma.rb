@@ -15,7 +15,7 @@ def oxford_comma(arrayArg)
       #else
       #  newArray.push(elem)
       #end
-  end
+  
 end
   
 end
