@@ -1,5 +1,6 @@
 def oxford_comma(array)
-  string = array.join(",")
+  string = array.join(", ")
+  
   
   counter = 0
   array.each_with_index do |elem|
