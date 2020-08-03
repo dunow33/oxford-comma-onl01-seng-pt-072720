@@ -9,6 +9,6 @@ def oxford_comma(array)
   #end
 end
 
-array1 = ["3", "5", "7", "98"]
+array1 = ["3"]
 
 puts oxford_comma(array1)
