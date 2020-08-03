@@ -1,6 +1,6 @@
 def oxford_comma(arrayArg)
   if(arrayArg.size == 1)
-   return arrayArg.join
+   return arrayArg
   end
   
   #string1 = arrayArg.join(",")
