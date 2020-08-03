@@ -11,6 +11,6 @@ def oxford_comma(arrayArg)
   #end
 end
 
-array1 = ["3"]
+#array1 = ["3"]
 
-puts oxford_comma(array1)
+#puts oxford_comma(array1)
