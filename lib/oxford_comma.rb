@@ -5,7 +5,7 @@ def oxford_comma(arrayArg)
    return arrayArg.join(" and ")
   elsif
     string1 = arrayArg.join(",")
-    newArray = string1.split(",")
+    newArray = string1.split(", ")
   
     newArray.each_with_index do |elem, index|
       if index == (array.length-1)
