@@ -5,10 +5,14 @@ def oxford_comma(arrayArg)
    return arrayArg.join(" and ")
   else
     last = (arrayArg.size - 1)
-    puts arrayArg[last]
-    string1 = arrayArg.join(", ")
-    string1 << " and "
-    return string1
+    temp = arrayArg[last]
+    arrayArg[last] = " and "
+    arrayArg.push(temp)
+    
+    return arrayArg.join
+    #string1 = arrayArg.join(", ")
+    #string1 << " and "
+    #return string1
     #newArray = string1.split(", ")
   
     #newArray.each_with_index do |elem, index|
