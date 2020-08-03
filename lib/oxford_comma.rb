@@ -4,7 +4,6 @@ def oxford_comma(arrayArg)
   elsif(arrayArg.size == 2)
    return arrayArg.join(" and ")
   elsif
-  end
   
   #string1 = arrayArg.join(",")
   #newArray = string1.split(",")
@@ -12,7 +11,7 @@ def oxford_comma(arrayArg)
   #counter = 0
   #array.each_with_index do |elem|
    #if counter == (array.length-1)
-  #end
+  end
 end
 
 #array1 = ["3"]
