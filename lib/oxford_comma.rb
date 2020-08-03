@@ -8,6 +8,9 @@ def oxford_comma(arrayArg)
     newArray = string1.split(", ")
   
     newArray.each_with_index do |elem, index|
-      if index == (array.length-1)
+      if index == (newArray.length-1)
+        newArray.push("and")
+      else
+        newArray.push(elem)
       end
 end
