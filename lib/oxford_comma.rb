@@ -15,3 +15,8 @@ def oxford_comma(arrayArg)
       #end
   end
 end
+
+
+array1 = ["56", "89", "67", "78", "43"]
+
+puts oxford_comma(array1)
