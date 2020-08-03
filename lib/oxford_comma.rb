@@ -6,6 +6,7 @@ def oxford_comma(arrayArg)
   elsif
     string1 = arrayArg.join(",")
     string1 << " and "
+    return string1
     #newArray = string1.split(", ")
   
     #newArray.each_with_index do |elem, index|
@@ -16,7 +17,7 @@ def oxford_comma(arrayArg)
       #end
   end
 end
-  return string1
+  
 end
 
 
